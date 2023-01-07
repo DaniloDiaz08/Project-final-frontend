@@ -1,15 +1,22 @@
 import React from 'react'
-import Nav from '../Components/Navbar'
+import Navbar from '../Components/Navbar'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
-  return (
-    
-    <>
-    <Navbar />
-    </>
-      
-    
-  )
+    return (
+
+        <>
+            <Navbar />
+            <div>
+                <div>
+                    <Link to="/">Hola mundo</Link>
+
+                </div>
+            </div>
+        </>
+
+
+    )
 }
 
 export default Home
