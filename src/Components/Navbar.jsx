@@ -1,8 +1,8 @@
 import { React, useState } from 'react';
-import { HiMenu, HiStar, HiHome } from "react-icons/hi";
-import { IoEyeSharp } from "react-icons/io5";
+import { HiMenu, HiHome } from "react-icons/hi";
+import { BsSignpostSplitFill } from "react-icons/bs";
 import { IoPersonCircleOutline } from "react-icons/io5";
-import { GiTargetShot, GiNotebook } from "react-icons/gi";
+import { GiNotebook } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import '../../src/styles/index.css';
 import LogoOQA from '../assets/logo-OQA-De-removebg-preview.png'
@@ -27,7 +27,7 @@ const Navbar = () => {
 
             <div>
                 {menu && (
-                    <div className=" rounded-3xl mt-2 fixed h-3/5 pb-40 px-8 py-2 border-2 border-[#F25c05] flex flex-col  gap-10 z-20 font-Handlee text-3xl bg-black">
+                    <div className=" rounded-3xl mt-2 fixed h-2/4 pb-40 px-8 py-2 border-2 border-[#F25c05] flex flex-col  gap-10 z-20 font-Handlee text-3xl bg-black">
 
                         <div className=''>
                             <a href='#Home'>
@@ -44,13 +44,6 @@ const Navbar = () => {
                         </div>
 
                         <div className='flex flex-row items-baseline'>
-                            <Link>
-                                <HiStar className='text-4xl absolute ml-0.1 text-[#F25C05]' />
-                                <span className='p-10 text-white'>Destacados</span>
-                            </Link>
-                        </div>
-
-                        <div className='flex flex-row items-baseline'>
                             <a href='#AboutUs'>
                                 <IoPersonCircleOutline className='text-4xl absolute ml-0.1 text-[#F25C05]' />
                                 <span className='p-10 text-white text-2xl'>Quienes Somos</span>
@@ -59,17 +52,12 @@ const Navbar = () => {
 
                         <div className='flex flex-row items-baseline'>
                             <Link>
-                                <IoEyeSharp className='text-4xl absolute ml-0.1 text-[#F25C05]' />
-                                <span className='p-10 text-white'>Visión</span>
+                                <BsSignpostSplitFill className='text-4xl absolute ml-0.1 text-[#F25C05]' />
+                                <span className='p-10 text-white'> Misión Visión</span>
                             </Link>
                         </div>
 
-                        <div className='flex flex-row items-baseline'>
-                            <Link>
-                                <GiTargetShot className='text-4xl absolute ml-0.1 text-[#F25C05]' />
-                                <span className='p-10 text-white'>Misión</span>
-                            </Link>
-                        </div>
+                        
 
                     </div>
                 )
