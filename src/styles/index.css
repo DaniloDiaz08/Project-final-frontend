@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Lora', sans-serif;
+        font-family: 'Lobster Two', cursive;
+        font-family: 'Handlee', cursive;
+    }
+}
+
+body::-webkit-scrollbar,
+#descripScroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track,
+#descripScroll::-webkit-scrollbar-track {
+    background-color: #1C1B20;
+}
+
+body::-webkit-scrollbar-thumb,
+#descripScroll::-webkit-scrollbar-thumb {
+    background-color: #f25c05;
+    border-radius: 10px;
+}
