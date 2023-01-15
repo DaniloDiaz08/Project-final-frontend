@@ -1,6 +1,5 @@
 import { React, useState } from 'react';
 import { HiMenu, HiHome } from "react-icons/hi";
-import { BsSignpostSplitFill } from "react-icons/bs";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { GiNotebook } from "react-icons/gi";
 import { Link } from 'react-router-dom';
@@ -16,14 +15,15 @@ const Navbar = () => {
     return (
 
         <>
+            <Link />
 
             <div className='flex justify-between text-[#F25C05] h-10 md:h-16 lg:h-16 mt-10 ml-6 mr-6'>
-                <HiMenu className='text-2xl sm:text-2xl  md:text-3xl lg:text-4xl xl:text-5xl'  onClick={() => setMenu(!menu)}/>
+                <HiMenu className='text-2xl sm:text-2xl  md:text-3xl lg:text-4xl xl:text-5xl' onClick={() => setMenu(!menu)} />
 
                 <img className='scale-150' src={LogoOQA} alt="logo" />
                 <MdOutlineShoppingCart className=' text-2xl sm:text-2xl  md:text-3xl lg:text-4xl xl:text-5xl text-[#F25C05]' />
             </div>
-            
+
 
             <div>
                 {menu && (
@@ -49,15 +49,6 @@ const Navbar = () => {
                                 <span className='p-10 text-white text-2xl'>Quienes Somos</span>
                             </a>
                         </div>
-
-                        <div className='flex flex-row items-baseline'>
-                            <Link>
-                                <BsSignpostSplitFill className='text-4xl absolute ml-0.1 text-[#F25C05]' />
-                                <span className='p-10 text-white'> Misión Visión</span>
-                            </Link>
-                        </div>
-
-                        
 
                     </div>
                 )
