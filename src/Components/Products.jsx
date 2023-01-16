@@ -29,11 +29,12 @@ const Products = () => {
             <div id='Products' className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 m-6'>
 
                 <div className='col-span-1 md:col-span-2 '>
-                    <h1 className='text-4xl md:text-5xl lg:text-6xl p-12 text-white'>Productos</h1>
+                    <h1 className='text-4xl md:text-5xl lg:text-6xl p-12 text-white col-start-1 sm:col-span-1 md:col-span-2 lg:col-span-4'>Productos</h1>
                 </div>
 
-                <div id='Woman' className='col-span-1 md:col-span-2 lg:col-span-4 lg:col-start-2 xl:col-span-6'>
-                    <h2 className='text-3xl p-10 ml-10 md:text-4xl md:ml-64 lg:text-5xl lg:ml-36 xl:ml-56 text-white'>Mujeres</h2>
+                <div id='Woman' className='col-span-1 md:col-span-2 lg:col-span-4 lg:col-start-2 xl:col-span-6 text-center md:text-center'>
+                    <h2 className='text-3xl p-10 md:text-4xl lg:text-5xl text-white'>Mujeres</h2>
+
                 </div>
 
 
@@ -69,7 +70,7 @@ const Products = () => {
                     </div>
                 </div>
 
-                <div className=' bg-white rounded-3xl col-start-1'>
+                <div className=' bg-white rounded-3xl col-start-1 xl:col-start-5'>
                     <img className=' rounded-3xl scale-95 lg:h-56 w-full md:h-80' src={Img4} alt="Product" />
                     <div className='flex justify-around  h-12 m-4'>
                         <p className='text-black ml-10 text-sm'>Adidas Forum</p>
@@ -101,7 +102,7 @@ const Products = () => {
                     </div>
                 </div>
 
-                <div className=' bg-white rounded-3xl col-start-1 '>
+                <div className=' bg-white rounded-3xl col-start-1 xl:col-start-3'>
                     <img className=' rounded-3xl scale-95' src={Img8} alt="Product" />
                     <div className='flex justify-around  h-12 m-4'>
                         <p className='text-black ml-10 text-sm'>Vans Old School</p>
@@ -119,13 +120,13 @@ const Products = () => {
 
                 <div className='col-span-1 md:col-span-2 lg:col-span-4 lg:col-start-1 xl:col-span-6 lg:p-6'>
                     <div className='flex flex-row justify-center '>
-                        <h2 className='text-xl p-4  text-white'>Si buscas un Producto en especial contactanos a través de WhatSapp y te ayudamos con gusto! <br /><br /> INSTAGRAM
+                        <h2 className='text-xl p-4  text-white col-start-1 sm:col-span-1 md:col-span-2 lg:col-span-4'>Si buscas un Producto en especial contactanos a través de WhatSapp y te ayudamos con gusto! <br /><br /> INSTAGRAM
                         <a href='https://www.instagram.com/oqa_oficial/'><AiFillInstagram className='text-[#F25C05] scale-150 col-span-1 md:col-span-2 lg:col-span-4' /></a> </h2>
                     </div>
                 </div>
 
-                <div id='Man' className='col-span-1 md:col-span-2 lg:col-span-4 lg:col-start-2 xl:col-span-6'>
-                    <h2 className='text-3xl p-10 ml-10 md:text-4xl md:ml-64 lg:text-5xl lg:ml-36 xl:ml-56 text-white'>Hombres</h2>
+                <div id='Man' className=' text-center col-span-1 md:col-span-2 lg:col-span-4 lg:col-start-2 xl:col-span-6'>
+                    <h2 className='text-3xl p-10 md:text-4xl lg:text-5xl text-white'>Hombres</h2>
                 </div>
 
 
@@ -161,7 +162,7 @@ const Products = () => {
                     </div>
                 </div>
 
-                <div className=' bg-white rounded-3xl col-start-1'>
+                <div className=' bg-white rounded-3xl col-start-1 xl:col-start-5'>
                     <img className=' rounded-3xl scale-95' src={Img5h} alt="Product" />
                     <div className='flex justify-around  h-12 m-4'>
                         <p className='text-black ml-10 text-sm'>Adidas forum</p>
@@ -193,7 +194,7 @@ const Products = () => {
                     </div>
                 </div>
 
-                <div className=' bg-white rounded-3xl col-start-1 '>
+                <div className=' bg-white rounded-3xl col-start-1 xl:col-start-3'>
                     <img className=' rounded-3xl scale-95' src={Img9h} alt="Product" />
                     <div className='flex justify-around  h-12 m-4'>
                         <p className='text-black ml-10 text-sm'>New Balance 302</p>
