@@ -23,7 +23,7 @@ const Navbar = () => {
                     <div className='fixed mt-36 pb-40 px-8 py-4 flex flex-col gap-8 h-1/3 z-40 text-3xl rounded-xl border-4 border-[#F25c05] font-Handlee bg-black'>
 
                         <div className='flex flex-row items-baseline'>
-                            <a to="#Home">
+                            <a href="#Home">
                                 <HiHome className='text-4xl absolute left-8  text-[#F25C05]' />
                                 <span className='p-8 text-white'>Inicio</span>
                             </a>

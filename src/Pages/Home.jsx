@@ -6,6 +6,7 @@ import Photo2 from '../assets/photo.2.webp'
 import Products from '../Components/Products'
 import AboutUs from '../Components/AboutUs'
 import Footer from '../Components/Footer'
+import { IoLogoWhatsapp } from 'react-icons/io'
 
 
 
@@ -50,6 +51,11 @@ const Home = () => {
 
             <Products />
             <Footer />
+
+            <div className='fixed bottom-3 right-3 text-5xl '>
+                <a href='https://wa.me/+57 319 2694371?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio%20'>
+                    <IoLogoWhatsapp className='text-black  animate-none' /></a>
+            </div>
 
         </div>
 
