@@ -14,15 +14,15 @@ const Home = () => {
     return (
 
         <div className='container'>
-            <Navbar />
             <Link className='/' />
+            <Navbar />
             <div id='Home'>
 
                 <div className=''>
 
 
 
-                    <p className=' text-center pt-10 text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl lg:mt-20 xl:text-7xl hover:text-[#F25C05]'>BIENVENIDOS</p>
+                    <p className=' text-center text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl hover:text-[#F25C05]'>BIENVENIDOS</p>
                     <p className='mt-4 mr-2 ml-2 text-white text-center text-xl'>Queremos darte más de lo que te gusta. Cuentanos que buscas y te enviaremos nuestras ofertas</p>
 
 
